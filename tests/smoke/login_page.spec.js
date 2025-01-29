@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 const LoginPage = require('../../resources/page_objects/login');
 
-test.describe('Smoke Test - Login', () => {
+test.describe('Smoke Test - Login', {tag: '@smoke'}, () => {
   test('Valid Login', async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.navigate();
