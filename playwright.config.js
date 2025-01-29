@@ -1,15 +1,19 @@
-const { devices } = require('@playwright/test');
+const { defineConfig, devices } = require('@playwright/test');
 
-module.exports = {
+module.exports = defineConfig({
   testDir: './tests',
   retries: 1,
   timeout: 60000,
+
   use: {
     baseURL: process.env.BASE_URL || 'https://testing.maxistime.com',
     trace: 'on',
     screenshot: 'only-on-failure',
     video: 'retry-with-video',
   },
+
+  reporter: [['html', { outputFolder: 'playwright-report', open: 'never' }]],
+
   projects: [
     {
       name: 'Chromium',
@@ -24,4 +28,4 @@ module.exports = {
       use: { browserName: 'webkit' },
     },
   ],
-};
+});

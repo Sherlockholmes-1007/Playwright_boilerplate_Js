@@ -6,7 +6,7 @@ test.describe('Smoke Test - Dashboard', () => {
 
   test('Verify Heading', async ({ page }) => {
     const dashboardPage = new DashboardPage(page);
-    await page.goto('https://testing.maxistime.com/apps/user/dashboard');
+    await page.goto('/apps/user/dashboard');
     await page.waitForURL(/dashboard/);
     const dashboardHeading = await dashboardPage.getHeading();
     console.log("Dashboard heading:", dashboardHeading);
