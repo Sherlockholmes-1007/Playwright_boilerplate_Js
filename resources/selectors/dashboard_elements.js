@@ -3,4 +3,3 @@ module.exports = {
     heading: "[class='heading-primary']",
   },
 };
-  
