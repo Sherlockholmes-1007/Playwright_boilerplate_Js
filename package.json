@@ -8,7 +8,10 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.50.0",
-    "@types/node": "^22.10.10"
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.10.10",
+    "chai": "^5.2.0",
+    "playwright": "^1.50.1"
   }
 }
