@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "auth",
-      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGltb25AbWFpbHNhYy5jb20ifSwiY3JlYXRlZF9hdCI6IjIwMjUtMDEtMjlUMDk6NTU6NTEuNzg0WiIsImlhdCI6MTczODE0NDU1MSwiZXhwIjoxNzM4MjMwOTUxfQ.gEfQNW6utUtCTG7IOcfSJ8euYjA-Zma4dp0W0PAr7hM",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoidGltb25AbWFpbHNhYy5jb20ifSwiY3JlYXRlZF9hdCI6IjIwMjUtMDItMThUMTI6NDA6NDkuNTkxWiIsImlhdCI6MTczOTg4MjQ0OSwiZXhwIjoxNzM5OTY4ODQ5fQ.61ax0T4VYHdlejD_sBNf01imCHLsiRXuDHSOAGA65k8",
       "domain": "testing-api.maxistime.com",
       "path": "/",
-      "expires": 1738230951,
+      "expires": 1739968850,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Strict"
